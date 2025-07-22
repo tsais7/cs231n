@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Dataset files (usually too large for git)
+*.npz
+**/datasets/cifar-10-batches-py/
+**/datasets/*.tar.gz
+**/datasets/*.zip
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
